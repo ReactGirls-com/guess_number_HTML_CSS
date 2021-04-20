@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b1464;
+  color: #1b1464;
+  font-family: Tomorrow, sans-serif;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-weight: 800;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  line-height: 160%;
+  width: 100%;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.howToPlay,
+.secretNumber {
+  width: 624px;
+}
+
+.howToPlay {
+  padding: 96px 54px 86px;
+}
+
+.howToPlay h2 {
+  margin-bottom: 32px;
+}
+
+.howToPlay li:not(:last-of-type) {
+  margin-bottom: 32px;
+}
+
+.howToPlay {
+  text-align: center;
+}
+
+.secretNumber {
+  padding: 96px 43px;
+  text-align: center;
+}
+
+.secretNumber h2 {
+  margin-bottom: 32px;
+}
+
+.bound {
+  font-size: 48px;
+  letter-spacing: 0.03em;
+  line-height: 130%;
+}
+
+.leftArrow {
+  font-size: 62px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+
+.interval {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.guessForm {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 253px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 126px;
+}
+
+input {
+  font-family: Tomorrow;
+  width: 200px;
+  height: 82px;
+  background-color: #1b1464;
+  font-size: 48px;
+  line-height: 130px;
+  text-align: center;
+  color: white;
+}
+
+button {
+  background-color: #00ffc4;
+  padding: 30px 120px;
+}
