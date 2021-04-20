@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Can you guess the secret number?</h1>
+    </header>
+
+    <main>
+      <section class="white-background howToPlay">
+        <h2>HOW TO PLAY</h2>
+        <ul>
+          <li>Guess the secret number between 0 and 100.</li>
+          <li>If you guess incorrect number, you will get a hint.</li>
+          <li>If you guess correct number, you win!</li>
+        </ul>
+      </section>
+
+      <section class="white-background secretNumber">
+        <h2>SECRET NUMBER</h2>
+        <div class="interval">
+          <p class="bound">0</p>
+          <p class="leftArrow">&lt;</p>
+          <img src="star.svg" />
+          <p class="leftArrow">&lt;</p>
+          <p class="bound">100</p>
+        </div>
+      </section>
+    </main>
+
+    <section class="white-background guessForm">
+      <h2>Number between 0 and 100:</h2>
+      <input type="number" placeholder="55" />
+      <button>GUESS</button>
+    </section>
+  </body>
+</html>
