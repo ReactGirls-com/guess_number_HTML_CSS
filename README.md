@@ -1,4 +1,3 @@
-# guess_number
-Project Guess the Number
+Project guess number (ReactGirls Academy)
 
-React Girls Academy https://reactgirls.com/
+Lesson HTML, CSS
